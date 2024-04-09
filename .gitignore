@@ -1,0 +1,46 @@
+# Binaries and executables
+/bin/
+*.exe
+*.exe~
+/main
+
+# Test binaries
+*_test
+
+# Output of the go coverage tool
+*.out
+
+# Project-specific output
+/dist/
+/build/
+
+# Dependency directories (remove these lines if you're checking in vendor directory)
+/vendor/
+Gopkg.lock
+go.sum
+
+# IDE and editor files
+*.swp
+*.swo
+*.sublime*
+.idea/
+.vscode/
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Private keys
+*.pem
